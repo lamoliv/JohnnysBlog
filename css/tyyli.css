@@ -1,0 +1,194 @@
+body {
+    color:rgb(0, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+
+}
+
+p  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+
+h1 {
+    color: #171717;
+    background-color: #fff;
+    font-family: 'Covered By Your Grace', sans-serif;
+    font-size: 60px;
+    line-height: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+pre {
+    width: 95%;
+    text-align: center;
+}
+
+a, a:visited {
+        color: #171717;
+}
+
+#contact {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 160px;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+#kruunulogo {
+width: 2em;
+vertical-align: middle;
+}
+.otsikko {
+background-position: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+align-content: center;
+}
+
+/* navigointi */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-ul li a {
+    display: inline-block;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    display: none;
+    color: #171717;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+/* navigointi loppuu */
+
+footer {
+    color: rgb(228, 226, 226);
+    background-color: #171717;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border : solid 2px #171717;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+.somet i {
+    color: #fff;
+    font-size: 40px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+
+/*mobiili*/
+@media only screen and (max-width: 760px) {
+    
+    .nav-ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    }
+
+    .nav-ul.show {
+    display: flex;
+    }
+    .hamburger {
+    display: block;
+    }
+
+    header {display: flex;
+    flex-direction:column-reverse;}
+
+    #portrait {
+        height: 70%;
+        width: 70%;
+    }
+
+    #axe {
+        height: 60%;
+        width: 60%;
+        }
+    #grillo {
+        height: 100%;
+        width: 100%;
+        }
+    #pork {
+        height: 55%;
+        width: 55%;
+    }
+    #skull {
+        height: 80%;
+        width: 80%;
+    }
+    #in_italian {
+        height: 90%;
+        width: 90%;
+    }
+    #death {
+        height: 90%;
+        width: 90%;
+    }
+    
+     p {
+        font-size: 80%;
+     }
+}    
+/*välikoot*/
+@media only screen and (min-width: 421px) {
+
+
+}
+
+/* normaalit*/
+@media only screen and (min-width: 1024px) {   
+      
+    :root {
+    background-color: rgb(234, 221, 202);
+    background-repeat: no-repeat;
+    background-size: auto;
+    }
+    
+    body {
+    background: rgb(255, 255, 255);
+    max-width: 1024px;
+    margin: auto;
+    }
+
+    .flex_container 
+    {display: flex;}
+    .flex_item 
+    {flex-grow: 1}
+
+
+}
